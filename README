@@ -1,0 +1,14 @@
+python-craigslist-search-to-excel
+================
+
+This project uses python to do a search in craigslist and then convert the results to excel. It goes through all the pages as well.
+This script uses python 2.7 and you will need install these libraries using these commands if you have easy_install installed:
+easy_install beautifulsoup4
+easy_install xlwtu can use these commands instead of the above:
+
+if you have linux you can use these commands instead:
+sudo apt-get install python-beautifulsoup4
+sudo apt-get install python-xlwt
+
+Beautifulsoup will convert malformed html into easy to navigate objects. We can grab certain elements by tag name and  class. Then it can loop through them and get the text of the elements or it can get the attributes like href from a link.
+xlwt will write an excel document.
